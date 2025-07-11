@@ -1,0 +1,231 @@
+@media screen and (min-width: 1370px) {
+    .skills__item {
+        max-width: 359px;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .container {
+        max-width: 1150px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .container {
+        max-width: 1100px;
+    }
+
+    .skills__item-logo {
+        width: 100%;
+    }
+
+    .button--small {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 992px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .learn__title {
+        font-size: 48px;
+    }
+
+    .learn__description {
+        font-size: 20px;
+    }
+
+    .button--started {
+        width: 292px;
+        height: 80px;
+        border-radius: 5px;
+    }
+
+    .learn__image-img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .skills_items__block {
+        max-width: 192px;
+    }
+
+    .skills__item-logo {
+        width: 205px;
+        height: 205px;
+    }
+
+    .price > .container {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .price__item {
+        max-width: 27%;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .button--talk {
+        height: 50px;
+        width: 160px;
+    }
+
+    .about__title  {
+        font-size: 36px;
+    }
+
+    .about__description {
+        font-size: 16px;
+    }
+
+    .learn__content {
+        max-width: 528px;
+    }
+
+    .about__statisti__items-item {
+        font-size: 30px;
+        justify-content: flex-start;
+    }
+
+    .about__statisti__items-item span {
+        font-size: 16px;
+    }
+
+    .about__image {
+        display: flex;
+        align-items: center;
+    }
+
+    .about__image-img {
+        width: 336px;
+        height: 336px;
+    }
+
+    .footer__title  {
+        font-size: 36px;
+    }
+
+    .footer__description {
+        font-size: 16px;
+    }
+
+    #email {
+        height: 60px;
+    }
+
+    .button--small {
+        height: 60px;
+
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__nav {
+        display: none;
+    }
+
+    .button--talk {
+        display: none;
+    }
+
+    .learn__title {
+        font-size: 36px;
+    }
+
+    .learn__description {
+        font-size: 16px;
+    }
+
+    .learn__button {
+        padding-top: 32px;
+    }
+
+    .skills > .container {
+        gap: 0;
+    }
+    
+
+    .skills_items__block {
+        max-width: 164px;
+        max-width: 130px;
+    }
+
+    .skills__item-logo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .skills__item-title {
+        font-size: 20px;
+    }
+
+    .skills__item-descr {
+        font-size: 13px;
+    }
+
+    .button--toSmall {
+        width: 178px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .button--started {
+        height: 65px;
+        width: 236px;
+        font-size: 18px;
+    }
+
+    .learn__content {
+        gap: 0;
+        
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .learn > .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills > .container {
+        flex-wrap: wrap;
+    }
+
+    .about > .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .price > .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer > .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__description {
+        text-align: center;
+    }
+}
