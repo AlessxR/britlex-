@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body {
+    font-family: Poppins;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+}
+
+.container {
+    display: block;
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.small--height {
+    max-height: 531px;
+}
+
+.max--width {
+    display: flex;
+    /* width: 100%; */
+}
+
+hr {
+    width: 1340px;
+    height: 1px;
+    background: rgb(196, 196, 196);
+}

@@ -1,0 +1,30 @@
+.about > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__title {
+    font-size: 48px;
+}
+
+.about__statistics__items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 632px;
+}
+
+.about__statisti__items-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 48px;
+    color: rgb(42, 50, 70);
+    gap: 5px;
+}
+
+.about__statisti__items-item span {
+    font-size: 20px;
+    color: rgb(143, 149, 165);
+}

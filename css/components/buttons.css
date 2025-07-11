@@ -1,0 +1,43 @@
+.button {
+    border: 2px solid rgb(38, 50, 56);
+    border-radius: 5px;
+}
+
+.button--talk {
+    cursor: pointer;
+    width: 220px;
+    height: 70px;
+    border: 2px solid rgb(38, 50, 56);
+    border-radius: 5px;
+    color: black;   
+}
+
+.button--started {
+    cursor: pointer;
+    width: 438px;
+    height: 118px;
+    border-radius: 15px;
+    background: rgb(38, 50, 56);
+    color: white;
+    font-size: 36px;
+}
+
+.button--speaking {
+    width: 230px;
+    height: 60px;
+    border-radius: 5px;
+    background: rgb(38, 50, 56);
+
+    color: white;
+    cursor: pointer;
+}
+
+.button--pricing {
+    border: none;
+    color: rgb(38, 50, 56);
+
+}
+
+.button--small {
+    height: 80px;
+}

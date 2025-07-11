@@ -1,0 +1,18 @@
+.skills__title {
+    padding-top: 229px;
+}
+
+.price > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+}
+
+.button--pricing span {
+    font-size: 18px;
+}

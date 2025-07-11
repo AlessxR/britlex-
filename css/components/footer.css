@@ -1,0 +1,44 @@
+.footer {
+    padding-top: 261px;
+}
+
+.footer > .container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 133px;
+}
+
+.footer__title {
+    margin-top: 0px;
+}
+
+#email {
+    width: 450px;
+    height: 80px;
+    border: 1px solid rgb(143, 149, 165);
+    border-radius: 10px;
+}
+
+.footer__button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer__content {
+    max-width: 776px;
+    justify-content: space-evenly;
+}
+
+.footer__description {
+    width: 100%;
+}
+
+.nav > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__nav-item {
+    color: rgb(196, 196, 196);
+}

@@ -1,0 +1,28 @@
+.learn {
+    padding-top: 75px;
+}
+
+.learn > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.learn__title {
+    font-size: 64px;
+}
+
+.learn__description {
+    color: rgb(143, 149, 165);
+    font-size: 24px;
+    max-width: 632px;
+}
+
+.learn__image {
+    margin-right: 0px;
+}
